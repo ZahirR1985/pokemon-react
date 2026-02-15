@@ -1,0 +1,21 @@
+.nav-button {
+    padding: 10px 18px;
+    margin: 0 10px;
+    min-width: 120px;
+    height: 44px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3b4cca;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #2a33a5;
+}
+
+.nav-button:disabled {
+    background-color: darkgrey;
+    cursor: not-allowed;
+}
